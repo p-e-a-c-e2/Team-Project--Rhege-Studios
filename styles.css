@@ -650,19 +650,19 @@ button:hover{
   /* .......footer........ */
 
 #footer {
-    font-family: Arial, sans-serif;
+     font-family: Arial, sans-serif;
     background-color:#6929C4;
     color: white; 
     padding:30px 0px;
     width: 100%
-  }
+  } 
   
   .footer-upper {
     display: flex;
     justify-content: space-evenly;
     align-items: flex-start;
     margin-bottom: 30px;
-    border-bottom: 3px solid white; 
+    border-bottom: 1px solid white; 
     padding-bottom: 20px;
     width: 100%;
   }
@@ -705,14 +705,14 @@ button:hover{
     color: white;
   }
   
-  .footer-lower {
+   .footer-lower {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 80px; 
     width: 100%; 
     box-sizing: border-box;
-  }
+  } 
   
   .footer-lower p {
     margin: 0;
@@ -1057,7 +1057,7 @@ button:hover{
       flex-direction: column;
       align-items: center;
       text-align: center;
-      border-bottom: 2px solid white; 
+      border-bottom: 1px solid white; 
       padding-bottom: 15px;
     }
   
@@ -1081,11 +1081,11 @@ button:hover{
       font-size: 14px; 
     }
   
-    .footer-lower {
+     .footer-lower {
       flex-direction: column;
       align-items: center;
       padding: 20px 0; 
-    }
+    } 
   
     .footer-lower p {
       padding: 0;
@@ -1120,7 +1120,6 @@ button:hover{
   
   
   .footer-lower {
-    border-top: 1px solid white; 
     margin-top: 20px;
     padding-top: 15px;
   
