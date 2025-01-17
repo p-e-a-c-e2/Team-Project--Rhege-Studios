@@ -9,7 +9,7 @@
             email: document.getElementById('email').value,
             phone: document.getElementById('phone').value,
             track: document.getElementById('track').value,
-            portfolio: document.getElementById('portfolio').value
+            // portfolio: document.getElementById('portfolio').value
         };
 
        
@@ -32,3 +32,13 @@
     });
 
 
+
+
+    
+const hamburger = document.getElementById('hamburger');
+const navLinks = document.getElementById('navLinks');
+
+
+hamburger.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+});
